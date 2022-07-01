@@ -1,1 +1,1 @@
-Does not link c file
+Generates assembley code

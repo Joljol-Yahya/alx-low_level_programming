@@ -12,7 +12,7 @@
 int main(void)
 
 {
-
-	    return (0);
+	printf("0-preprocessor");
+      	return (0);
 
 }

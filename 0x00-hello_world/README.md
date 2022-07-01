@@ -1,1 +1,1 @@
-Creates file c and makes it executable
+Prints a long value of string

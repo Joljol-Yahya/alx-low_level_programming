@@ -1,1 +1,1 @@
-Generates assembley code
+Creates file c and makes it executable

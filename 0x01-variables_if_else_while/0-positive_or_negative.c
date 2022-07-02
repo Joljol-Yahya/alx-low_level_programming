@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
-   *main - prints if the number is negative or positive 
-   *and prints its result
+   *Min - prints if the number is negative or positive 
+   *and prints its result.
    *
    *Return 0 if the operation is successful
    */

@@ -1,19 +1,20 @@
-#include <stdiolib.h>
-#include <stdiotime.h>
+#include <stdlib.h>
+#include <time.h>
+#include  <stdio.h>
+
+/*Prints if the number is negative or positive*/
 
 int main(void)
 {
-	int n = 2;
+	int n = 0;
 
 	srand(time(0));
-	n = rand() - RAND_MAX /2
-		if  (n / 1 = 3)
-			printf("The solution is negative\n", n++)
+	n = rand() - RAND_MAX / 2;
+	if(n%2 > 0)
+	printf("%d is positive\n", n);
 		
-
-}else {
-	printf("The solution is positive\n", n++)
+else
+	printf("%d is negative\n", n);
+	return 0;
 
 }
-	return 0;
-	}

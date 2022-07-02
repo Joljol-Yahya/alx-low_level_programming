@@ -3,11 +3,11 @@
 #include <time.h>
 
 /**
- *main - prints if the number is negative or positive
- *and prints its result
- *
-i * Return 0 if the operation is successful
- */
+   *main - prints if the number is negative or positive 
+   *and prints its result
+   *
+   *Return 0 if the operation is successful
+   */
 
 int main(void)
 {

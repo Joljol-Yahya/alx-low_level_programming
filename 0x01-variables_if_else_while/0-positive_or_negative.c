@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
-   *Min - prints if the number is negative or positive 
-   *and prints its result.
-   *
-   *Return 0 if the operation is successful
-   */
+ :*main - Entry point
+ *
+ *Return: Always 0 (Success)
+ */
 
 int main(void)
 {
@@ -16,13 +14,17 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2 ;
 
-	if(2 > 0)
+	if(2 > 0){
 		printf("%d is positive\n", n);
+	}
 
-	else if (n == 0)
+	if(n < 0){
+		printf("%d is negative\n", n);
+	}
+
+	if (n == 0){
 		printf("%d is zero\n", n);
-
-	else printf ("%d is negative\n", n);
+	}
 	
-	return 0;
+	return(0);
 }

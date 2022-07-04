@@ -1,1 +1,1 @@
-Prints the letters in lower cases
+Prints base 10

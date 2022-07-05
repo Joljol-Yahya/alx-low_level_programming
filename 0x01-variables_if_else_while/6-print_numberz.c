@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * min-Prints all the numbers
+ * main-Prints all the numbers
  *
  * Return: Always o (Successu)
  */

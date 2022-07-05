@@ -1,1 +1,1 @@
-Prints all the numbers
+Prints all 16 letters to lowercases

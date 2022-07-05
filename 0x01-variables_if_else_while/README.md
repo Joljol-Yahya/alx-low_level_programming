@@ -1,1 +1,1 @@
-Prints base 10
+Prints all the numbers

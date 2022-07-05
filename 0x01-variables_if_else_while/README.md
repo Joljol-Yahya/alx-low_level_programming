@@ -1,1 +1,1 @@
-Prints all 16 letters to lowercases
+Prints all the possible combinationsof digits

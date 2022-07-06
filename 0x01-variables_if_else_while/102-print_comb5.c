@@ -16,7 +16,7 @@ int main(void)
 				for (k = 46; k <= 58; k++)
 				{
 					if (((k + i) > (a + b) && i >= a) || a < k)
-					{
+					
 						putchar(a);
 						putchar(b);
 						putchar(' ');
@@ -37,7 +37,6 @@ int main(void)
 				}
 			}
 		}
-	}
 	
 	putchar('\n');
 	

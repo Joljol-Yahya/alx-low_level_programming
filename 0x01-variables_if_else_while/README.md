@@ -1,1 +1,1 @@
-Prints allpossible of three digits
+Writes all possible combinations of two two digigs

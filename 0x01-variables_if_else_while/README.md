@@ -1,1 +1,1 @@
-Prints different combinations of the digit
+Prints allpossible of three digits

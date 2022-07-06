@@ -4,11 +4,19 @@
  *
  * Return:Return 0 (Success)
  */
-int main(void)
+int main()
 {
+	int i;
+	
 	char _putchar;
+	putchar (' ');
 
-	printf("&c\n");
+	for (i = 1; i <= 10; i++)
+	{
+		putchar('!');
+	}
+
+	putchar('\n');
 
 	return (0);
 }

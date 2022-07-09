@@ -7,14 +7,11 @@
  */
 void print_alphabet(void)
 {
-	char alp = 'a';
+	char c;
 
-		while(alp <= 'z')
-		{
-			putchar(alp);
-				alp++;
-		}
-		putchar('\n');
-
-		return(0);
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
 }

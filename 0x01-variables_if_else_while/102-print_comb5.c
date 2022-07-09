@@ -21,6 +21,7 @@ int main(void)
 					putchar(' ');
 					putchar(y);
 					putchar(x);
+					
 					if (!(p == 57 && 
 						q == 56 && 
 						y == 57 && 
@@ -36,7 +37,7 @@ int main(void)
 			}
 			q++;
 			q = p;
-			x = q + 1;
+			x = q+ 1;
 		}
 		p++;
 		q = 48;

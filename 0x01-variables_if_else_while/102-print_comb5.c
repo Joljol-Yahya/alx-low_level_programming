@@ -22,9 +22,9 @@ int main(void)
 					putchar(y);
 					putchar(x);
 					if (!(p == 57 && 
-					q == 56 && 
-					y == 57 && 
-					x == 57))
+						q == 56 && 
+						y == 57 && 
+						x == 57))
 					{
 						putchar(',');
 						putchar(' ');

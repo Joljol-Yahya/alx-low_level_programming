@@ -38,7 +38,7 @@ int main(void)
 			q = p;
 			x = q + 1;
 		}
-		q++;
+		p++;
 		q = 48;
 		y = p;
 		x  = q + 1;

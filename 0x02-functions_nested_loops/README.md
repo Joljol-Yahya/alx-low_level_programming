@@ -1,1 +1,1 @@
-prints _putchar
+Prints _Putchar

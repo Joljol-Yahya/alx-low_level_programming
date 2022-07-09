@@ -1,44 +1,49 @@
 #include <stdio.h>
 /**
- * main-Prints all the possible of two two numbers
+ * main-Entry point
  *
- * Return:Aways 0 (Success)
+ * Return:Always 0 (Success)
  */
 int main(void)
 {
-	int c, i, k, j;
+	int p = 48, q = 48, y = 48, x = 49;
 
-	for (c = 48; c <= 57; c++)
-	{	for (i = 48; i <= 57; i++)
+	while (p < 58)
+	{
+		while (q < 58)
 		{
-			for (k = 48; k <= 57; k++)
+			while (y < 58)
 			{
-				for (j = 48; j <= 57; j++)
+				while (x < 58)
 				{
-					if (((k + j) > (c + i) && k >= c) || c < k)
-					
-						putchar(c);
-						putchar(i);
+				
+					putchar(p);
+					putchar(q);
+					putchar(' ');
+					putchar(y);
+					putchar(x);
+					if (!(p == 57 && 
+					q == 56 && 
+					y == 57 &&
+					x == 57))
+					{
+						putchar(',');
 						putchar(' ');
-						putchar(k);
-						putchar(j);
-						
-						if (c + i + k + j == 227 && c == 57)
-						{
-							break;
-						}
-						else
-						{
-							putchar(',');
-							
-							putchar(' ');
-						}
 					}
+					x++;
 				}
+				y++;
+				x = 48;
 			}
+			q++;
+			q = p;
+			x = q + 1;
 		}
-	
+		q++;
+		q = 48;
+		y = p;
+		x  = q+ 1;
+	}
 	putchar('\n');
-	
 	return (0);
 }
